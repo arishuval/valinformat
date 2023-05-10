@@ -11,7 +11,7 @@ body{
    top:  50%; 
    left: 50%;
    transform: translate(-50%,-50%);
-  
+   padding-top: 50px ;
 }
 .slides{
    display: flex;
@@ -134,3 +134,34 @@ section{
     height: calc(100vh - 80px);
 }
 
+.about{
+    padding-top: 30px;
+    background-color: rgb(23, 22, 30);
+}
+
+.about > h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.about > p {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: whitesmoke;
+}
+
+.isi{
+    padding-top: 30px;
+    background-color: rgb(23, 22, 30);
+}
+
+.isi > h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.isi > p {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: whitesmoke;
+}
