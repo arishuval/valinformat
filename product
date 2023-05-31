@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo">Clintertion</div>
+
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li class="services"><a href="design.html">Design Process</a>
+          <li><a href="product.html">Product</a></li>
+  </div>
+</ul>
+</nav>
+<section>
+  <div class="product">
+<a href="https://www.canva.com/design/DAFf2zSq038/KLU7xLs54lCIPqgqAQdvnw/edit?utm_content=DAFf2zSq038&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+    Ini Link Produk Saya (Click disini)
+</a>
+</div>
+</section>
+</body>
+</html>
