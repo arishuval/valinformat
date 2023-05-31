@@ -34,7 +34,7 @@ body{
  }
 
 
- @media (max-width: 768px) {
+ @media (max-width: 700px) {
     .slider{
         position: absolute;
         top:  60%; 
@@ -141,7 +141,7 @@ body{
   }
   
   /* APPLYING MEDIA QUERIES */
-  @media (max-width: 768px) {
+  @media (max-width: 700px) {
    .menu {
       display:none;
       position: absolute;
@@ -215,4 +215,30 @@ height: 30%;
 margin-left: auto;
 margin-right: auto;
 display: block;
+}
+
+.design > img {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secdes{
+  background-color: rgb(23, 22, 30);
+  height: max-content;
+}
+
+@media (max-width: 768px) {
+  .design > img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.product > a{
+  text-decoration: none;
+  color: white;
 }
