@@ -34,13 +34,13 @@ body{
  }
 
 
- @media (max-width: 700px) {
+ @media (max-width: 768px) {
     .slider{
         position: absolute;
-        top:  60%; 
+        top:  90%; 
         left: 50%;
         transform: translate(-50%,-50%);
-        padding-top: 100px ;
+        padding-top: 50px ;
      }
      .slides{
         display: flex;
@@ -61,6 +61,20 @@ body{
       .choose_3:checked ~ .slides > .s1{
          margin-left: -100rem;
       }
+      .isi > .atas{
+        padding-top: 250px;
+        background-color: rgb(23, 22, 30);
+    }
+    .isi > .atas > p{
+   color: aliceblue;
+   padding-left: 50px;
+   padding-right: 50px;
+  }
+
+  .isi > .atas > h1{
+    color: aliceblue;
+     text-align: center;
+   }
   }
 
 *{
@@ -94,6 +108,7 @@ body{
 
 /* NAVBAR STYLING STARTS */
 .navbar {
+  z-index: 99;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -194,7 +209,7 @@ body{
 }
 
 .isi{
-    padding-top: 30px;
+    padding-top: 50px;
     background-color: rgb(23, 22, 30);
 }
 
@@ -231,7 +246,8 @@ display: block;
 
 @media (max-width: 768px) {
   .design > img {
-    width: 300px;
+    width: 500px;
+    size: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
